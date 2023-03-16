@@ -1,0 +1,63 @@
+body {
+  padding-top: 80px;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: auto 0;
+}
+td:nth-child(1){
+    width: 5%;
+}
+td:nth-child(3) {
+    width:25%;
+}
+td:nth-child(2) {
+    width:70%;
+}
+td {
+    word-wrap: break-word;
+}
+.lead {
+    margin: 0;
+}
+
+.list-group-item {
+    padding: 2px 15px;
+}
+
+.todoEdit {
+    display: none;
+}
+
+.table-hover {
+    margin: 0;
+}
+
+.list-group-item {
+    padding-top: 0;
+}
+
+.pull-right {
+    padding-top: 5px;
+    display: none;
+}
+
+.pull-right > form {
+    display: inline;
+}
+
+#new{
+    width:100%;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    background-color: white;
+    background-color: -moz-field;
+    border: 1px solid darkgray;
+    box-shadow: 1px 1px 1px 0 lightgray inset;
+    /* font: -moz-field;
+    font: -webkit-small-control; */
+    margin-top: 5px;
+    padding: 2px 3px;
+}
